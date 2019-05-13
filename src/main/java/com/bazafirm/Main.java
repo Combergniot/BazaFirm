@@ -23,5 +23,6 @@ public class Main implements CommandLineRunner {
 //        scrapper.createStructureSiteSet();
 //        scrapper.downloadDataFromALlBranches();
         WriteToCSV.createCSV();
+
     }
 }
