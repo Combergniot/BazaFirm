@@ -1,6 +1,7 @@
 package com.bazafirm.scrappers;
 
 import com.bazafirm.model.Company;
+import com.bazafirm.model.SiteStructure;
 import com.bazafirm.services.CompanyService;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

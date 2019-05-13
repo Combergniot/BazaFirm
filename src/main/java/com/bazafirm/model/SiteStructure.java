@@ -1,4 +1,4 @@
-package com.bazafirm.scrappers;
+package com.bazafirm.model;
 
 import java.util.List;
 

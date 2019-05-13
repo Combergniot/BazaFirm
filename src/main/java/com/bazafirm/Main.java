@@ -1,5 +1,6 @@
 package com.bazafirm;
 
+import com.bazafirm.dataDAO.WriteToCSV;
 import com.bazafirm.scrappers.Scrapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -19,7 +20,8 @@ public class Main implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        scrapper.createStructureSiteSet();
-        scrapper.downloadDataFromALlBranches();
+//        scrapper.createStructureSiteSet();
+//        scrapper.downloadDataFromALlBranches();
+        WriteToCSV.createCSV();
     }
 }
