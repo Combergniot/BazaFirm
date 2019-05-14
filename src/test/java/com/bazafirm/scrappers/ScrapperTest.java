@@ -35,11 +35,6 @@ public class ScrapperTest extends ScrapperSettings {
     }
 
     @Test
-    public void collectData() throws IOException{
-        scrapper.collectCompaniesFromBranch("bankowość i finanse");
-    }
-
-    @Test
     public void shouldSayThatNameIsNotNull() throws IOException {
         Elements elements = setUp();
         int counter = 1;

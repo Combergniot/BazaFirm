@@ -1,4 +1,5 @@
 package com.bazafirm.dataDAO;
+
 import com.opencsv.CSVWriter;
 
 import java.io.*;
@@ -73,10 +74,8 @@ public class WriteToCSV {
                                 rs.getString("email"),
                                 rs.getString("published_date"),
                                 rs.getString("created_at"),
-                                rs.getString("email"),
                         });
             }
-
             writer.writeAll(data);
             System.out.println("CSV written successfully.");
             writer.close();
